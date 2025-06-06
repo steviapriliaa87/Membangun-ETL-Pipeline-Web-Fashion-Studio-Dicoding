@@ -1,0 +1,23 @@
+# Membuat Virtual Environtment
+python -m  venv .env
+
+# Mengaktifkan Virtual Environtment
+.env\Scripts\activate
+
+# Menginstall semua dependency
+pip install -r requirements.txt
+
+# Menjalankan skrip
+python main.py
+
+# Menjalankan unit test pada folder tests
+python -m unittest discover -s tests
+
+# Menjalankan test coverage pada folder tests
+coverage run -m unittest discover -s tests
+
+# Melihat Coverage Report
+coverage report
+
+# Url Google Spreadsheets:
+https://docs.google.com/spreadsheets/d/1HT8ijac-WcgrfnepImMqBey86JYyyR897WMeS8sjmB0/edit?usp=sharing

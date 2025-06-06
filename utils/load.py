@@ -34,7 +34,7 @@ def load_to_postgresql(df, table_name='products'):
     try:
         # Konfigurasi koneksi database
         username = 'postgres'
-        password = 'STEVISUKSESS887'  # Ganti password sesuai milikmu
+        password = '123456'  # Sesuaikan
         host = 'localhost'
         port = '5432'
         database = 'db_etl_pipeline'

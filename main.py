@@ -43,7 +43,7 @@ def main():
         # Simpan data ke Google Sheets
         save_to_google_sheets(
             transformed_data,
-            spreadsheet_id='1HT8ijac-WcgrfnepImMqBey86JYyyR897WMeS8sjmB0',
+            spreadsheet_id='1HT8ijac-WcgrmMqBey86JYyyR897WMeS8sjmB0',
             range_name='Sheet1!A1'
         )
 
